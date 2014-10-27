@@ -18,4 +18,4 @@
             		</p>
             	</div>
             </div>
-            <div class="sub-option o-select" data-type="select"><div class="well"><p><strong>Choose Second Side </strong></p><p><select name="t_s_2_'+ newItem +'" id="t_s_2_'+ newItem +'" ><option value="Quinoa" data-cost="0" >Quinoa</option><option value="Mixed Greens with Basalmic" data-cost="0" >Mixed Greens with Basalmic</option><option value="Sunflower Rice" data-cost="0" >Sunflower Rice</option></select></p></div></div></div></div>';
+            <div class="sub-option o-select" data-type="select"><div class="well"><p><strong>Choose Second Side </strong></p><p><select name="t_s_2_'+ newItem +'" id="t_s_2_'+ newItem +'" ><option value="Quinoa" data-cost="0" >Quinoa</option><option value="Mixed Greens with Basalmic" data-cost="0" >Mixed Greens with Basalmic</option><option value="Rice" data-cost="0" >Rice</option></select></p></div></div></div></div>';

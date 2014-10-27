@@ -14,7 +14,7 @@ $headers = json_encode(getHeaders());
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sunflower Cafe Admin</title>
+    <title>Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -53,12 +53,11 @@ $headers = json_encode(getHeaders());
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="http://www.sunflowercafenashville.com">Sunflower Cafe</a>
+          <a class="brand" href="">Admin</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="menu.php">Menus</a></li>
               <li><a href="activities.php">Events</a></li>
-				      <li><a href="updates.php">Updates</a></li>
               <li><a href="logout.php">Logout</a></li>
             </ul>
           </div><!--/.nav-collapse -->

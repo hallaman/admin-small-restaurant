@@ -102,14 +102,14 @@ SQL;
 function sendEmail() {
 	require_once "Mail.php";
 					 
-	 $from = "Sunflower Cafe Online Ordering <ordering@sunflowercafe.com>";
+	 $from = "";
 	 $to = "<" . $data['payer_email'] . ">";
 	 $subject = 'Your To Go Order';
 
 	 $body = '
 		<html>
 		<head>
-		  <title>Your To Go Order with Sunflower Cafe</title>
+		  <title>Your To Go Order </title>
 		  <style>
 
 		  </style>
@@ -121,9 +121,9 @@ function sendEmail() {
 		</html>
 	';
 	 
-	 $host = "mail.sunflowercafenashville.com";
-	 $username = "ordering@sunflowercafenashville.com";
-	 $password = "Sunflower898";
+	 $host = "";
+	 $username = "";
+	 $password = "";
 	 
 	 $headers = array (
 	 	"MIME-Version"=> '1.0', 

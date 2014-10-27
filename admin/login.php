@@ -5,7 +5,6 @@ include_once 'includes/lib.php';
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-
 $sql =<<<SQL
 
 	SELECT 	id,
@@ -43,7 +42,6 @@ if ( $count == 1 ) {
 	else {
 		header('Location: index.php?notice_good_bad=error&notice=Incorrect Password Entered.  Please try again.');
 		exit;
-
 	}
 	
 }

@@ -91,7 +91,7 @@ function pdo_error_handling($error_array, $sql, $access_file, $sql_filename, $fu
 	$message = 'accessing_filename: ' . $access_file . '<br /><br />' . 'sql_location: ' . $sql_filename . '<br /><br />' . 'function: ' . $function . '<br /><br />' . $error_array[2] . '<br /><br />' . $sql;
 
 	if ( $error_array[2] != null ) {
-		send_email('heather.allaman@gmail.com', 'Sunflower Cafe PDO Error: ', $message, 'no_reply@sunflowercafe.com','no_reply@sunflowercafe.com');
+		send_email('heather.allaman@gmail.com', 'SPDO Error: ', $message, 'no_reply@blah.com','no_reply@blah.com');
 		$notice = 'There was an error while trying to process your request.  The site admin has been alerted.';
 	}
 
@@ -427,15 +427,14 @@ SQL;
 
 	$result = $stmt->fetch();
 
-	$host = "mail.sunflowercafenashville.com";
-	$username = "ordering@sunflowercafenashville.com";
-	$password = "Sunflower898";
+	$host = "";
+	$username = "";
+	$password = "";
 
 	// email to ordering@sunflowercafe.com
 
-	 $from = "Sunflower Cafe Online Ordering <ordering@sunflowercafe.com>";
-	 $to = "<ordering@sunflowercafe.com>";
-	 //$to = "Heather <heather.allaman@gmail.com>";
+	 $from = "";
+	 $to = "";
 	 $subject = 'New To Go Order';
 
 	 $body = '
@@ -475,14 +474,14 @@ SQL;
 
 	// email to buyer
 					 
-	 $from2 = "Sunflower Cafe Online Ordering <ordering@sunflowercafe.com>";
+	 $from2 = "";
 	 $to2 = "<" . $result['email'] . ">";
 	 $subject2 = 'Your To Go Order';
 
 	 $body2 = '
 		<html>
 		<head>
-		  <title>Your To Go Order with Sunflower Cafe</title>
+		  <title>Your To Go Order</title>
 		  <style>
 
 		  </style>

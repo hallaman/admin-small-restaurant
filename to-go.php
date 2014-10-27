@@ -37,10 +37,7 @@ $week_array = getWeeksMenu($startday);
    </head>
    
    <body>
-   <?php include ('includes/analytics.php'); ?>
    <table align="center" width="700px">
-   <tr><td><?php include ('includes/header.php'); ?></td></tr>
-   <tr><td><?php include ('includes/sub-menu.php'); ?></td></tr>
    <tr>
    <td>
       <div class="content">
@@ -74,9 +71,9 @@ $week_array = getWeeksMenu($startday);
 
                   }
 
-                  if ( $item['header_id'] == '4') {
+                  if ( $item['header_id'] == '2') {
 
-                    $sorted_items .= '<p> <b>Bean of the day</b> <span style="display: block; padding-left: 5px;">'. stripslashes($item['description']) .'</span></p>';
+                    $sorted_items .= '<p> <b>Soup of the day</b> <span style="display: block; padding-left: 5px;">'. stripslashes($item['description']) .'</span></p>';
 
                   }
 
@@ -187,8 +184,7 @@ $week_array = getWeeksMenu($startday);
       </div>
    </td>
    </tr>
-   <tr><td><?php include ('includes/footer.php'); ?></td></tr>
-   </table> 
+   </table>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
@@ -311,7 +307,7 @@ $week_array = getWeeksMenu($startday);
 
           var chefSpecial    = '<option value="Daily Chef Special" data-cost="0" >Daily Chef Special - see daily menu above</option><option value="Ginger Thai Tofu" data-cost="0" >Ginger Thai Tofu</option>';
           var sideOptions    = '<option value="Vegetable of the day" data-cost="11" >Vegetable of the day - see daily menu above</option><option value="Bean of the day" data-cost="11" >Bean of the day - see daily menu above</option><option value="Sweet Potatoes" data-cost="11" >Sweet Potatoes</option><option value="Fruit Crumble" data-cost="11" >Fruit Crumble</option><option value="Cold Kale Salad" data-cost="11" >Cold Kale Salad</option><option value="Fruit" data-cost="11" >Fruit</option><option value="Potato Salad" data-cost="11" >Potato Salad</option>';
-          var secsideOptions = '<option value="Quinoa" data-cost="0" >Quinoa</option><option value="Sunflower Rice" data-cost="0" >Sunflower Rice</option><option value="Mixed Greens with Homemade Balsamic Dressing" data-cost="0" >Mixed Greens with Homemade Balsamic Dressing</option></select>';
+          var secsideOptions = '<option value="Quinoa" data-cost="0" >Quinoa</option><option value="Rice" data-cost="0" >Rice</option><option value="Mixed Greens with Homemade Balsamic Dressing" data-cost="0" >Mixed Greens with Homemade Balsamic Dressing</option></select>';
           var sideOptions9   = '<option value="Vegetable of the day" data-cost="9" >Vegetable of the day - see daily menu above</option><option value="Bean of the day" data-cost="9" >Bean of the day - see daily menu above</option><option value="Sweet Potatoes" data-cost="9" >Sweet Potatoes</option><option value="Fruit Crumble" data-cost="9" >Fruit Crumble</option><option value="Cold Kale Salad" data-cost="9" >Cold Kale Salad</option><option value="Fruit" data-cost="9" >Fruit</option><option value="Potato Salad" data-cost="9" >Potato Salad</option>';
           var sideOptions0   = '<option value="Vegetable of the day" data-cost="0" >Vegetable of the day - see daily menu above</option><option value="Bean of the day" data-cost="0" >Bean of the day - see daily menu above</option><option value="Sweet Potatoes" data-cost="0" >Sweet Potatoes</option><option value="Fruit Crumble" data-cost="0" >Fruit Crumble</option><option value="Cold Kale Salad" data-cost="0" >Cold Kale Salad</option><option value="Fruit" data-cost="0" >Fruit</option><option value="Potato Salad" data-cost="0" >Potato Salad</option>';
           // var dessertOptions = '<div class="well"><h4>Add a Dessert</h4><label><strong>*Additional cost </strong><div class="sub-option o-radio" data-type="select"><div class="well"><p><ul><li><input type="radio"  data-cost="2.5" value="2 Rice Krispy Treats" name="d_s_1_'+ ditems +'"/><label for="d_s_1_'+ ditems +'">2 Rice Krispy Treats - $2.50</label></li><li><input type="radio" checked="checked" data-cost="3" value="Chocolate Mousse" name="d_s_1_'+ ditems +'"/><label for="d_s_1_'+ ditems +'">Chocolate Mousse - $3.00</label></li></ul></div></div>';

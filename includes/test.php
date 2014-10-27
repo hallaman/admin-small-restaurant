@@ -64,7 +64,7 @@
 						$to  = $_POST['payer_email']; 
 
 						// subject
-						$subject = 'Your Order with Sunflower Cafe';
+						$subject = 'Your Order';
 
 						// message
 						$message = '
@@ -89,7 +89,7 @@
 						// Additional headers 
 						$headers .= 'To: <' . $_POST['payer_email'] . '>' . "\r\n";
 
-						$headers .= 'From: Sunflower Cafe Online Ordering <ordering@sunflowercafe.com>' . "\r\n";
+						$headers .= '' . "\r\n";
 
 						// Mail it
 						mail($to, $subject, $message, $headers);

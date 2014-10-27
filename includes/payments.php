@@ -5,13 +5,12 @@ include_once '../admin/includes/lib.php';
 
 
 // PayPal settings
-$paypal_email = 'lyazdian@comcast.net';
-//$paypal_email = 'lyazdian-facilitator@comcast.net';
-$return_url = 'http://sunflowercafenashville.com/payment-successful.php';
-$cancel_url = 'http://sunflowercafenashville.com/payment-cancelled.php';
-$notify_url = 'http://sunflowercafenashville.com/includes/payments.php';
+$paypal_email = '';
+$return_url = '/payment-successful.php';
+$cancel_url = '/payment-cancelled.php';
+$notify_url = '/includes/payments.php';
 
-$item_name = 'Sunflower Cafe Online Order';
+$item_name = 'Online Order';
 $item_amount = $_POST["total-cost"];
 
 $tax = (9.25*($item_amount/100));

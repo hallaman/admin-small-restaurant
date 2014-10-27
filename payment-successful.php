@@ -17,10 +17,7 @@
    </head>
    
    <body>
-   <?php include ('includes/analytics.php'); ?>
    <table align="center" width="700px">
-   <tr><td><?php include ('includes/header.php'); ?></td></tr>
-   <tr><td><?php include ('includes/sub-menu.php'); ?></td></tr>
    <tr>
    <td>
       <div class="content">
@@ -30,13 +27,7 @@
       </div>
    </td>
    </tr>
-   <tr><td><?php include ('includes/footer.php'); ?></td></tr>
-   </table> 
-
-
-
-  
-
+   </table>
 
   </body>
 
