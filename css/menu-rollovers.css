@@ -1,0 +1,23 @@
+/* main menu rollovers */
+
+.main-sunflower {
+   background: url(../images/main-sunflower.png) no-repeat; width: 300px; height: 306px; margin-left: auto; margin-right: auto;}
+.plate 
+   {background-repeat: no-repeat; width: 300px; height: 306px;}
+   
+tr.menu-row {
+   height: 102px;} 
+
+tr.menu-row > td > div {
+	font-size: 32px;
+	font-weight: bold;
+	color: #FFDE00;
+	font-family: cursive;
+	text-shadow: 1px 1px 1px #616161;
+	letter-spacing: 2px;
+	cursor: pointer;
+} 
+
+tr.menu-row > td > div:hover {
+	color: #6B1088;
+}   

@@ -1,0 +1,12 @@
+.inline .desc_box  {
+   padding: 10px;
+   border: 1px dotted white;
+}
+
+.priced {
+	border: 2px dotted #fc9572;
+} 
+
+.sec_box {
+	border: 1px dotted #fc9572 !important;
+}

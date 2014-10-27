@@ -1,0 +1,14 @@
+/* header */
+
+.header {
+   width: 700px; height: 190px; margin-left: auto; margin-right: auto; margin-bottom: 6px;}
+
+.logo {
+   float: left; background: url(../images/sunflower-cafe-logo-website.png) no-repeat; width: 241px; height: 169px; cursor: pointer;}
+
+.social {
+   float: right; width: 40px; height: 169px;}
+   
+.intro {
+   float: right; color: #ffffff; font-size: 100%; text-align: right;}
+

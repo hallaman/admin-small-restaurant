@@ -1,0 +1,20 @@
+.inline {
+	display: inline-table !important;
+	padding: 6px 18px;
+}
+
+.inline::after{
+	clear: both;
+}
+
+.chalk_header {
+   font-size: 22px;
+}  
+
+.lunch,
+.dinner {
+	width: 650px;
+	text-align: center;
+	margin: 0px auto;
+}
+

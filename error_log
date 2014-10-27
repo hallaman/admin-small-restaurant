@@ -1,0 +1,20 @@
+[29-Oct-2012 16:36:21] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/sunfloz3/public_html/index.php on line 30
+[29-Oct-2012 16:36:34] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/sunfloz3/public_html/index.php on line 30
+[29-Oct-2012 16:36:49] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/sunfloz3/public_html/why-veg.php on line 49
+[11-Nov-2012 15:16:51] PHP Warning:  fopen(data/daily-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/includes/daily-menu.php on line 8
+[11-Nov-2012 19:06:39] PHP Parse error:  syntax error, unexpected ';' in /home5/sunfloz3/public_html/includes/daily-menu.php on line 48
+[11-Nov-2012 19:06:43] PHP Parse error:  syntax error, unexpected ';' in /home5/sunfloz3/public_html/includes/daily-menu.php on line 48
+[26-Nov-2012 15:08:05] PHP Parse error:  syntax error, unexpected T_DNUMBER in /home5/sunfloz3/public_html/menu.php on line 75
+[26-Nov-2012 15:08:22] PHP Parse error:  syntax error, unexpected T_DNUMBER in /home5/sunfloz3/public_html/menu.php on line 75
+[05-Jan-2013 09:05:06] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[05-Jan-2013 09:05:06] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
+[05-Jan-2013 09:05:33] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[05-Jan-2013 09:05:33] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
+[05-Jan-2013 09:05:57] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[05-Jan-2013 09:05:57] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
+[05-Jan-2013 09:06:00] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[05-Jan-2013 09:06:00] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
+[05-Jan-2013 09:12:41] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[05-Jan-2013 09:12:41] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
+[09-Apr-2013 19:54:55] PHP Warning:  fopen(data/website-menu.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home5/sunfloz3/public_html/class/website-menu-class.php on line 434
+[09-Apr-2013 19:54:55] PHP Warning:  Invalid argument supplied for foreach() in /home5/sunfloz3/public_html/class/website-menu-class.php on line 355
