@@ -4,7 +4,7 @@
 $server = 'localhost';
 $login = 'root';
 $password = 'root';
-$database = 'sunflower';
+$database = 'admin-small-restaurant';
 
 // Define DSN
 $dsn = 'mysql:host=' . $server . ';dbname=' . $database . ';';
